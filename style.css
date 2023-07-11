@@ -1,0 +1,225 @@
+
+/* banner style */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    display: flex;
+    justify-content:space-between;
+    background-color: gray;
+    align-items: center;
+    padding: 20px 200px;
+
+}
+.nav-menus{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+    
+}
+.nav-menus a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800px;
+
+}
+.banner-container{
+    height: 100vh;
+    background-image: url(image/image/background.jpg),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;  
+}
+.info-banner{
+    margin-left: 100px;
+}
+.span-color{
+    color: rgb(233, 62, 0);
+}
+
+.banner-heading{
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+}
+
+.title-description{
+    font-size: 22px;
+    color: whitesmoke;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;  
+}
+
+.btn{
+    padding: 17px;
+    background-color: rgb(233, 62, 0);
+    font-size: 20px;
+    border: none; 
+    border-radius: 5px;
+    margin: 30px 10px ;
+    color: whitesmoke;
+}
+.main-container{
+    height: 150vh;
+    background-image: url(image/image/footer-bg.png),linear-gradient(rgba(0, 0, 0, 0.99),rgba(0,0,0,0.80));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.icon{
+    width: 80px;
+    margin-top: 50px;   
+}
+
+.box{
+    background-color: white;
+    color: black;
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service{
+    width: 50%;
+}
+
+.all-box{
+    display: flex;
+    margin: 30px;
+    gap:30px;
+}
+
+.box-heading{
+    font-size: 23px;
+    margin-top:10px;
+    
+}
+
+.author-img{
+    border-radius: 50px;
+    width: 100px;
+ 
+}
+.author-container{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin-top: 30px;
+    
+}
+.profile-author{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-right: 3px solid orangered;
+    padding: 20px;
+}
+.service-h{
+    font-size: 40px;
+}
+
+.service-description{
+    font-size: 22px;
+    margin-top: 15px;
+}
+.service-list{
+    font-size: 22px;
+    margin: 15px 25px;}
+
+.appointment-container{
+    display: flex;
+    background-color: orangered;
+    width: 85%;
+    margin: auto;
+    padding:30px;
+    margin-top: -120px;
+    gap:40px;
+    align-items: center;
+    border-radius: 10px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;  
+    gap:20px; 
+    border-right: 2px solid whitesmoke;
+    padding: 30px;
+}
+.ico{
+    width: 100px;
+    
+}
+.phone-call h6{
+    font-size: 20px;
+    color: whitesmoke;
+}
+.appointment-des p {
+    font-size: 23px;
+    color: whitesmoke;
+}
+.appointment-btn button{
+    padding: 17px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    border: none; 
+    border-radius: 5px;
+    margin: 30px 10px ;
+    color: orangered;
+}
+section{
+    text-align: center;
+    margin-top: 150px;
+}
+section h1{
+    font-size: 86px;
+    color: rgb(48, 47, 47);
+}
+section p{
+    font-size: 22px;
+    color: rgb(48, 47, 47);
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;  
+}
+.box-img{
+    width: 538px; 
+    border-radius: 10px;  
+}
+
+.style-container{
+    display: flex;
+    width:90%;
+    margin: auto;
+    gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.box-style{
+    box-shadow: 6px 8px 20px gray; 
+    border-radius: 10px;
+    
+}
+.box-style h3{
+    font-size: 27px;
+    padding: 10px 25px 2px;
+}
+.box-style p{
+    font-size: 22px;
+    padding: 10px 25px 25px;
+    text-align: justify;
+}
